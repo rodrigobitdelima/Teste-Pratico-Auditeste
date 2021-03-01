@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "cdb2a3dc-0451-4477-8bb0-517266950a0a",
+		"name": "Nasa API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Nasa API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"curiosity",
+						"photos"
+					]
+				},
+				"description": "Coletar dados de imagens do sol marciano"
+			},
+			"response": []
+		}
+	]
+}
